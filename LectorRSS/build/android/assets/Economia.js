@@ -1,0 +1,1 @@
+/home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Economia.js

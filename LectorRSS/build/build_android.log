@@ -1,0 +1,1216 @@
+
+4/8/2017 1:13:26 a.m.
+
+Operating System
+  Name                        = Ubuntu 16.04.2 LTS
+  Version                     = 16.04
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 4025155584
+
+Node.js
+  Node.js Version             = 4.2.6
+  npm Version                 = 3.5.2
+
+Titanium CLI
+  CLI Version                 = 5.0.14
+
+Titanium SDK
+  SDK Version                 = 6.1.1.GA
+  SDK Path                    = /home/hector/.titanium/mobilesdk/linux/6.1.1.GA
+  Target Platform             = android
+
+Command
+  /usr/bin/nodejs /home/hector/.appcelerator/install/6.2.2/package/node_modules/titanium/lib/titanium.js build --platform android --log-level trace --sdk 6.1.1.GA --project-dir /home/hector/Appcelerator_Studio_Workspace/LectorRSS --target device --android-sdk /home/hector/android-sdk-linux --device-id a08d160f4352 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 44209 --config-file /tmp/build-1501827202488.json --no-banner --project-dir /home/hector/Appcelerator_Studio_Workspace/LectorRSS
+
+[DEBUG]  Detecting modules in /home/hector/.titanium/modules
+[DEBUG]  Detected android module: facebook 6.1.0 @ /home/hector/.titanium/modules/android/facebook/6.1.0
+[DEBUG]  Detected android module: hyperloop 2.1.2 @ /home/hector/.titanium/modules/android/hyperloop/2.1.2
+[DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ /home/hector/.titanium/modules/android/ti.cloudpush/4.0.3
+[DEBUG]  Detected android module: ti.map 3.0.1 @ /home/hector/.titanium/modules/android/ti.map/3.0.1
+[DEBUG]  Detected android module: ti.touchid 2.1.0 @ /home/hector/.titanium/modules/android/ti.touchid/2.1.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /home/hector/.titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: hyperloop 2.1.2 @ /home/hector/.titanium/modules/iphone/hyperloop/2.1.2
+[DEBUG]  Detected windows module: hyperloop 2.1.2 @ /home/hector/.titanium/modules/windows/hyperloop/2.1.2
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK Android directory: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building for device: a08d160f4352
+[INFO]   Targeting Android SDK API: 23
+[INFO]   Building for the following architectures: armeabi-v7a, x86
+[INFO]   Signing with keystore: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/dev_keystore (tidev)
+[DEBUG]  App ID: com.cgma.lectorRSS
+[DEBUG]  Classname: Lectorrss
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: JavaScript files need to be re-encrypted
+[TRACE]  No .aar files to transform
+[TRACE]  offline build file /tmp/build-c5cb37040d3b37cdc12b7a6ea37f349be97a33cb.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"hhuerta360@gmail.com","session":"87d94d223423a3d58cf4d782077bfbc191062fde gclq0lXgjOaV4uga7mQHFSM+odtCUzayY0O3pREahUnhsfcKVDpBTqW8ubgDhSg7TTJqGt/Q2iGYjoJLHQPq2KDiXyCRHVJcUG0gnhTltWdn2FAI1OHPcJ0BxaaQPAmHhWfsPSsFod5SjFrwdOVauqzBQl23etRFN33LmHh+7+3BVc7nvVo47CxmsbWVoNdkxPtm72+2oiREqTey55zzBqB6OEh0N0tsdR1ryGiRLbDsit31aT1svUIoCxbQ/kJ5MAWMXnMJTma4/hMCGMYm8iiADsRwHga8eLfJnJ9YEaTprSM0ZS81yAJi5H+m609SShf7EADeCjCQ+DE2LkhzCN2Pad6l2lLYE5e1fQF+4JV1NU+dKM4U8mZRAMpxtUgK/vQXsU+m/HgzJ5uCz18fZuvt9GHv5nI1UYNRm29GrtP1PY3sS466V2odet9wTxBFaM7rivlQiLX3g0iOriP5he9rM+ZsVNJE5Pq0Y79rMY3Q0R7iOTO8O7xynP0ftfk/iXdGlkabVwBfQedq++d7tlxp97mZB8kAAx3L0dJeknyoP3BxrwfhaTWVu4dnkDq84JL1LI8WzYeeOERz1RXxCK5BBA8uu3nn/qKewXAnfLsV5b3Cr9rmPzmNktMAgJwPJHcNwDeAJTvn+vG1yTZBKQOIrC+ohmda55Pm1IvjHXx2RcAT7sb0ucGqjCwSLGn8vGrFNwyi1i6V5Lap0WwL4DgBaOVCxMWTAQwhkhO9gqA=","ipaddress":"192.168.1.66","fingerprint":"da39a3ee5e6b4b0d3255bfef95601890afd80709","fingerprint_description":"Linux with Mac Address:","guid":"d3601432-c244-4986-9777-48588ea9ff8a","appid":"com.cgma.lectorRSS","name":"LectorRSS","org_id":265986972446547,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.cgma.lectorRSS</id>\n  <name>LectorRSS</name>\n  <version>1.0</version>\n  <publisher>hector</publisher>\n  <url/>\n  <description/>\n  <copyright>2017 by hector</copyright>\n  <icon>rss.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>false</analytics>\n  <guid>d3601432-c244-4986-9777-48588ea9ff8a</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <property name=\"run-on-main-thread\" type=\"bool\">***</property>\n  <ios>\n    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>\n    <use-app-thinning>true</use-app-thinning>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules/>\n    <deployment-targets>\n      <target device=\"iphone\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"android\">true</target>\n      <target device=\"mobileweb\">false</target>\n    </deployment-targets>\n    <sdk-version>6.1.1.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">5977a4e05d778219088187df</property>\n  </ti:app>","modules":[]},"gzip":true,"followAllRedirects":true,"url":"https://platform.appcelerator.com/api/v1/auth/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"Z7gVsk7CwXuKgcoO1dZ4yQ==","pepper":"UhkrERvcMIZLaDqkC5R0+A==","hmacKey":"CZ+LNbYYG/H88y7zQg+meA==","o":265986972446547,"u":"08c9043e-6ce2-4f9e-ae72-079fbc22f83f","p":"free","i":"598410864cb35e0200cb3f82","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[DEBUG]  Copying /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/Favoritos.sqlite
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Favoritos.sqlite => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/Favoritos.sqlite
+[DEBUG]  Ignoring /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab1.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/assets/images/tab1.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab1.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab1@2x.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/assets/images/tab1@2x.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab1@2x.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab1@3x.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/assets/images/tab1@3x.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab1@3x.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab2.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/assets/images/tab2.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab2.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab2@2x.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/assets/images/tab2@2x.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab2@2x.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab2@3x.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/assets/images/tab2@3x.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/assets/images/tab2@3x.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/atom.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/atom.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/atom.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/auction.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/auction.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/auction.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/bar-chart.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/bar-chart.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/bar-chart.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/bills.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/bills.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/bills.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/cancel.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/cancel.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/cancel.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/family-of-three.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/family-of-three.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/family-of-three.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/gamepad.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/gamepad.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/gamepad.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/icon.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/icon.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/icon.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/soccer-ball-variant.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/soccer-ball-variant.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/soccer-ball-variant.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/star.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/star.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/star.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/star2.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/star2.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/star2.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/star3.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/img/star3.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/img/star3.png
+[DEBUG]  Copying /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/appicon.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/appicon.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/appicon.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-long-land-hdpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-long-land-ldpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-long-port-hdpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-long-port-ldpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-notlong-land-hdpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-notlong-land-ldpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-notlong-land-mdpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-notlong-port-hdpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-notlong-port-ldpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/images/res-notlong-port-mdpi/default.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-notlong-port-mdpi/background.png
+[WARN]   Overwriting file /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/rss.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/android/rss.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/rss.png
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/Resources/rss.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/rss.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Ciencia.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Ciencia.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Deportes.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Deportes.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Diversion.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Diversion.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Economia.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Economia.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Empresarial.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Empresarial.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Favoritos.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Favoritos.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Politica.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Politica.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Provincia.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Provincia.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/Tecnologia.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/Tecnologia.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/app.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/app.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/ui/common/FirstView.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/ui/common/FirstView.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/ui/handheld/ApplicationWindow.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/ui/handheld/ApplicationWindow.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/ui/handheld/android/ApplicationWindow.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/ui/handheld/android/ApplicationWindow.js
+[DEBUG]  Symlinking /home/hector/Appcelerator_Studio_Workspace/LectorRSS/Resources/ui/tablet/ApplicationWindow.js => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets/ui/tablet/ApplicationWindow.js
+[INFO]   Encrypting JavaScript files: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium_prep.linux64 "com.cgma.lectorRSS" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/assets" "Ciencia.js" "Deportes.js" "Diversion.js" "Economia.js" "Empresarial.js" "Favoritos.js" "Politica.js" "Provincia.js" "Tecnologia.js" "app.js" "ui/common/FirstView.js" "ui/handheld/ApplicationWindow.js" "ui/handheld/android/ApplicationWindow.js" "ui/tablet/ApplicationWindow.js" "_app_props_.json"
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar
+[DEBUG]  Adding dependency library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-database.jar
+[DEBUG]  Adding library /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar
+[INFO]   Writing /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets/app.json
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.res.zip
+[DEBUG]  Copying /tmp/11774-17908-1wj3pgc/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.res.zip
+[DEBUG]  Merging /tmp/11774-17908-sqv6ke/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.res.zip
+[DEBUG]  Merging /tmp/11774-17908-1ranwct/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.res.zip
+[DEBUG]  Merging /tmp/11774-17908-178gu7i/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.res.zip
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/drawable/btn_check_buttonless_on_64.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/drawable/btn_more_64.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/btn_more_64.png
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/drawable/disclosure_64.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/disclosure_64.png
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_tabgroup.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_tabgroup.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_tabgroup.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_tabgroup.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_checkbox.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_checkbox.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_date_picker_spinner.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_date_picker_spinner.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_edittext.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_edittext.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_edittext.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_edittext.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_list_header_or_footer.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_list_header_or_footer.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_list_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_list_item.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_list_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_list_item.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_spinner.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_spinner.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_spinner.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_spinner.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_switchcompat.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_switchcompat.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_time_picker_spinner.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Copying /tmp/11774-17908-1844t7e/res/layout/titanium_ui_time_picker_spinner.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Merging /tmp/11774-17908-1844t7e/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.res.zip
+[DEBUG]  Merging /tmp/11774-17908-1ulek77/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.res.zip
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_fade_in.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_fade_in.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_fade_in.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_fade_in.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_fade_out.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_fade_out.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_fade_out.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_fade_out.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_grow_fade_in_from_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_grow_fade_in_from_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_popup_enter.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_popup_enter.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_popup_enter.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_popup_enter.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_popup_exit.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_popup_exit.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_popup_exit.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_popup_exit.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_shrink_fade_out_from_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_shrink_fade_out_from_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_in_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_in_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_in_top.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_in_top.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_in_top.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_in_top.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_out_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_out_bottom.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_out_top.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_out_top.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/anim/abc_slide_out_top.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/anim/abc_slide_out_top.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_background_cache_hint_selector_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_background_cache_hint_selector_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_background_cache_hint_selector_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_background_cache_hint_selector_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_disable_only_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_disable_only_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_disable_only_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_disable_only_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_primary_text_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_primary_text_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_search_url_text.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_search_url_text.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_search_url_text.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_search_url_text.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_secondary_text_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_secondary_text_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_secondary_text_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/abc_secondary_text_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/switch_thumb_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/switch_thumb_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/switch_thumb_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/switch_thumb_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/switch_thumb_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/switch_thumb_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color/switch_thumb_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color/switch_thumb_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color-v11/abc_background_cache_hint_selector_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color-v11/abc_background_cache_hint_selector_material_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color-v11/abc_background_cache_hint_selector_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color-v11/abc_background_cache_hint_selector_material_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color-v23/abc_color_highlight_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/color-v23/abc_color_highlight_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_borderless_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_borderless_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_check_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_check_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_check_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_check_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_colored_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_colored_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_default_mtrl_shape.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_default_mtrl_shape.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_radio_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_btn_radio_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_cab_background_internal_bg.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_cab_background_internal_bg.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_cab_background_top_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_cab_background_top_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_dialog_material_background_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_dialog_material_background_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_dialog_material_background_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_dialog_material_background_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_edit_text_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_edit_text_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_item_background_holo_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_item_background_holo_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_item_background_holo_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_item_background_holo_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_background_transition_holo_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_background_transition_holo_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_background_transition_holo_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_background_transition_holo_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_holo_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_holo_dark.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_holo_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_list_selector_holo_light.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_ratingbar_full_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_ratingbar_full_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_ratingbar_indicator_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_ratingbar_indicator_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_ratingbar_indicator_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_ratingbar_indicator_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_ratingbar_small_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_ratingbar_small_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_ratingbar_small_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_ratingbar_small_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_seekbar_thumb_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_seekbar_thumb_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_seekbar_thumb_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_seekbar_thumb_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_seekbar_track_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_seekbar_track_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_seekbar_track_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_seekbar_track_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_spinner_textfield_background_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_spinner_textfield_background_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_switch_thumb_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_switch_thumb_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_tab_indicator_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_tab_indicator_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_text_cursor_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_text_cursor_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_textfield_search_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable/abc_textfield_search_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_list_focused_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_list_focused_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v21/abc_action_bar_item_background_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v21/abc_action_bar_item_background_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v21/abc_btn_colored_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v21/abc_btn_colored_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v21/abc_edit_text_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v21/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v21/abc_edit_text_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v21/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v23/abc_control_background_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-v23/abc_control_background_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_bar_title_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_bar_title_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_bar_up_container.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_bar_up_container.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_bar_view_list_nav_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_bar_view_list_nav_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_menu_item_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_menu_item_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_menu_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_menu_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_menu_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_menu_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_mode_bar.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_mode_bar.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_mode_bar.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_mode_bar.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_mode_close_item_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_action_mode_close_item_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_activity_chooser_view.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_activity_chooser_view.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_activity_chooser_view_list_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_activity_chooser_view_list_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_alert_dialog_button_bar_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_alert_dialog_button_bar_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_alert_dialog_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_alert_dialog_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_dialog_title_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_dialog_title_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_dialog_title_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_dialog_title_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_expanded_menu_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_expanded_menu_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_checkbox.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_checkbox.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_icon.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_icon.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_radio.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_list_menu_item_radio.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_popup_menu_item_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_popup_menu_item_layout.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_content_include.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_content_include.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_content_include.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_content_include.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_simple.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_simple.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_simple.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_simple.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_simple_overlay_action_mode.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_simple_overlay_action_mode.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_toolbar.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_toolbar.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_screen_toolbar.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_screen_toolbar.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_search_dropdown_item_icons_2line.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_search_dropdown_item_icons_2line.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_search_view.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_search_view.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_search_view.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_search_view.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_select_dialog_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_select_dialog_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/abc_select_dialog_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/abc_select_dialog_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_media_action.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_media_action.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_media_action.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_media_action.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_media_cancel_action.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_media_cancel_action.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_media_cancel_action.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_media_cancel_action.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_big_media.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_big_media.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_big_media.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_big_media.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_big_media_narrow.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_big_media_narrow.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_lines.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_lines.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_lines.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_lines.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_media.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_media.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_media.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_media.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_part_chronometer.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_part_chronometer.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_part_time.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_part_time.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/notification_template_part_time.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/notification_template_part_time.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/select_dialog_item_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/select_dialog_item_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/select_dialog_item_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/select_dialog_item_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/select_dialog_multichoice_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/select_dialog_multichoice_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/select_dialog_singlechoice_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/select_dialog_singlechoice_material.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/support_simple_spinner_dropdown_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/layout/support_simple_spinner_dropdown_item.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Merging /tmp/11774-17908-1o3ki6y/res/values/values.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-af/values-af.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-af/values-af.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-am/values-am.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-am/values-am.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ar/values-ar.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ar/values-ar.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-az-rAZ/values-az-rAZ.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-az-rAZ/values-az-rAZ.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-bg/values-bg.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-bg/values-bg.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-bn-rBD/values-bn-rBD.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-bn-rBD/values-bn-rBD.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ca/values-ca.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ca/values-ca.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-cs/values-cs.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-cs/values-cs.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-da/values-da.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-da/values-da.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-de/values-de.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-de/values-de.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-el/values-el.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-el/values-el.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-en-rAU/values-en-rAU.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-en-rAU/values-en-rAU.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-en-rGB/values-en-rGB.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-en-rGB/values-en-rGB.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-en-rIN/values-en-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-en-rIN/values-en-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-es/values-es.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-es/values-es.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-es-rUS/values-es-rUS.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-es-rUS/values-es-rUS.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-et-rEE/values-et-rEE.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-et-rEE/values-et-rEE.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-eu-rES/values-eu-rES.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-eu-rES/values-eu-rES.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-fa/values-fa.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-fa/values-fa.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-fi/values-fi.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-fi/values-fi.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-fr/values-fr.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-fr/values-fr.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-fr-rCA/values-fr-rCA.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-fr-rCA/values-fr-rCA.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-gl-rES/values-gl-rES.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-gl-rES/values-gl-rES.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-gu-rIN/values-gu-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-gu-rIN/values-gu-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-h320dp-v13/values-h320dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-h320dp-v13/values-h320dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-h720dp-v13/values-h720dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-h720dp-v13/values-h720dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-hdpi-v4/values-hdpi-v4.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-hdpi-v4/values-hdpi-v4.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-hi/values-hi.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-hi/values-hi.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-hr/values-hr.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-hr/values-hr.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-hu/values-hu.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-hu/values-hu.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-hy-rAM/values-hy-rAM.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-hy-rAM/values-hy-rAM.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-in/values-in.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-in/values-in.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-is-rIS/values-is-rIS.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-is-rIS/values-is-rIS.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-it/values-it.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-it/values-it.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-iw/values-iw.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-iw/values-iw.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ja/values-ja.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ja/values-ja.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ka-rGE/values-ka-rGE.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ka-rGE/values-ka-rGE.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-kk-rKZ/values-kk-rKZ.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-kk-rKZ/values-kk-rKZ.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-km-rKH/values-km-rKH.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-km-rKH/values-km-rKH.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-kn-rIN/values-kn-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-kn-rIN/values-kn-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ko/values-ko.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ko/values-ko.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ky-rKG/values-ky-rKG.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ky-rKG/values-ky-rKG.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-land/values-land.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-land/values-land.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-large-v4/values-large-v4.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-large-v4/values-large-v4.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ldltr-v21/values-ldltr-v21.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ldltr-v21/values-ldltr-v21.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-lo-rLA/values-lo-rLA.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-lo-rLA/values-lo-rLA.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-lt/values-lt.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-lt/values-lt.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-lv/values-lv.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-lv/values-lv.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-mk-rMK/values-mk-rMK.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-mk-rMK/values-mk-rMK.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ml-rIN/values-ml-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ml-rIN/values-ml-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-mn-rMN/values-mn-rMN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-mn-rMN/values-mn-rMN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-mr-rIN/values-mr-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-mr-rIN/values-mr-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ms-rMY/values-ms-rMY.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ms-rMY/values-ms-rMY.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-my-rMM/values-my-rMM.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-my-rMM/values-my-rMM.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-nb/values-nb.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-nb/values-nb.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ne-rNP/values-ne-rNP.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ne-rNP/values-ne-rNP.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-night-v8/values-night-v8.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-night-v8/values-night-v8.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-nl/values-nl.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-nl/values-nl.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-pa-rIN/values-pa-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-pa-rIN/values-pa-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-pl/values-pl.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-pl/values-pl.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-port/values-port.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-port/values-port.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-pt/values-pt.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-pt/values-pt.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-pt-rBR/values-pt-rBR.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-pt-rBR/values-pt-rBR.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-pt-rPT/values-pt-rPT.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-pt-rPT/values-pt-rPT.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ro/values-ro.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ro/values-ro.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ru/values-ru.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ru/values-ru.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-si-rLK/values-si-rLK.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-si-rLK/values-si-rLK.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-sk/values-sk.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-sk/values-sk.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-sl/values-sl.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-sl/values-sl.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-sq-rAL/values-sq-rAL.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-sq-rAL/values-sq-rAL.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-sr/values-sr.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-sr/values-sr.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-sv/values-sv.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-sv/values-sv.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-sw/values-sw.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-sw/values-sw.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-sw600dp-v13/values-sw600dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-sw600dp-v13/values-sw600dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ta-rIN/values-ta-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ta-rIN/values-ta-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-te-rIN/values-te-rIN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-te-rIN/values-te-rIN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-th/values-th.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-th/values-th.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-tl/values-tl.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-tl/values-tl.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-tr/values-tr.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-tr/values-tr.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-uk/values-uk.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-uk/values-uk.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-ur-rPK/values-ur-rPK.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ur-rPK/values-ur-rPK.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-uz-rUZ/values-uz-rUZ.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-uz-rUZ/values-uz-rUZ.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v11/values-v11.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v11/values-v11.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v12/values-v12.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v12/values-v12.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v13/values-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v13/values-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v14/values-v14.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v14/values-v14.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v17/values-v17.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v17/values-v17.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v18/values-v18.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v18/values-v18.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v21/values-v21.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v21/values-v21.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v22/values-v22.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v22/values-v22.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-v23/values-v23.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v23/values-v23.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-vi/values-vi.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-vi/values-vi.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-w360dp-v13/values-w360dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-w360dp-v13/values-w360dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-w480dp-v13/values-w480dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-w480dp-v13/values-w480dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-w500dp-v13/values-w500dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-w500dp-v13/values-w500dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-w600dp-v13/values-w600dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-w600dp-v13/values-w600dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-w720dp-v13/values-w720dp-v13.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-w720dp-v13/values-w720dp-v13.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-xlarge-land-v4/values-xlarge-land-v4.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-xlarge-land-v4/values-xlarge-land-v4.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-xlarge-v4/values-xlarge-v4.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-xlarge-v4/values-xlarge-v4.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-zh-rCN/values-zh-rCN.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-zh-rCN/values-zh-rCN.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-zh-rHK/values-zh-rHK.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-zh-rHK/values-zh-rHK.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-zh-rTW/values-zh-rTW.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-zh-rTW/values-zh-rTW.xml
+[DEBUG]  Copying /tmp/11774-17908-1o3ki6y/res/values-zu/values-zu.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-zu/values-zu.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.res.zip
+[DEBUG]  Merging /tmp/11774-17908-bl8luw/res/values/values.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[DEBUG]  Merging /tmp/11774-17908-bl8luw/res/values-v23/values-v23.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-v23/values-v23.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.res.zip
+[DEBUG]  Merging /tmp/11774-17908-3e9j1r/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.res.zip
+[DEBUG]  Merging /tmp/11774-17908-1xu7w51/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.res.zip
+[DEBUG]  Merging /tmp/11774-17908-rdzqdo/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-database.res.zip
+[DEBUG]  Merging /tmp/11774-17908-chp4ct/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.res.zip
+[DEBUG]  Merging /tmp/11774-17908-1m2px3b/res/values/strings.xml => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/values.xml
+[DEBUG]  Removing old file: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/.classpath
+[DEBUG]  Removing old file: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/.gitignore
+[DEBUG]  Removing old file: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/.project
+[DEBUG]  Removing old file: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/AndroidManifest.xml
+[DEBUG]  Removing old file: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/default.properties
+[DEBUG]  Removing old file: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/java-sources.txt
+[DEBUG]  Copying template /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/AppInfo.java => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/LectorrssAppInfo.java
+[DEBUG]  Copying template /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/App.java => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/LectorrssApplication.java
+[DEBUG]  Copying template /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/Activity.java => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/LectorrssActivity.java
+[DEBUG]  Copying template /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/project => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/.project
+[DEBUG]  Copying template /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/default.properties => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/default.properties
+[DEBUG]  Copying /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/gitignore => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/.gitignore
+[DEBUG]  Copying /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/classpath => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/.classpath
+[INFO]   No aidl files to compile, continuing
+[INFO]   Generating i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  Processing i18n file: en/strings.xml
+[DEBUG]  Processing i18n file: ja/strings.xml
+[DEBUG]  Writing en strings => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/strings.xml
+[DEBUG]  Writing ja strings => /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values-ja/strings.xml
+[INFO]   Generating /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res/values/theme.xml
+[INFO]   Running AAPT: /home/hector/android-sdk-linux/build-tools/26.0.0.2/aapt "package" "-f" "-m" "-J" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen" "-M" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/AndroidManifest.xml" "-A" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/assets" "-S" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/res" "-I" "/home/hector/android-sdk-linux/platforms/android-23/android.jar" "-F" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/app.ap_" "--output-text-symbols" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/intermediates/bundles" "--no-version-vectors" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview"
+[INFO]   Building Java source files: /usr/lib/jvm/java-8-oracle/bin/javac "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "/home/hector/android-sdk-linux/platforms/android-23/android.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-database.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar:/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/lib/titanium-verify.jar:R.class:AssetCryptImpl.class:LectorrssActivity.class:LectorrssAppInfo.class:LectorrssApplication.class" "-d" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/java-sources.txt"
+[INFO]   Running dexer: /usr/lib/jvm/java-8-oracle/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/home/hector/android-sdk-linux/platform-tools" "-jar" "/home/hector/android-sdk-linux/build-tools/26.0.0.2/lib/dx.jar" "--dex" "--multi-dex" "--output=/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/dexfiles" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/classes" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/lib/titanium-verify.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-database.jar" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar"
+[INFO]   Creating unsigned apk
+[DEBUG]  Processing /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/app.ap_
+[DEBUG]  Deflating AndroidManifest.xml
+[DEBUG]  Deflating assets/Resources/Favoritos.sqlite
+[DEBUG]  Adding assets/Resources/appicon.png
+[DEBUG]  Adding assets/Resources/assets/images/tab1.png
+[DEBUG]  Adding assets/Resources/assets/images/tab1@2x.png
+[DEBUG]  Adding assets/Resources/assets/images/tab1@3x.png
+[DEBUG]  Adding assets/Resources/assets/images/tab2.png
+[DEBUG]  Adding assets/Resources/assets/images/tab2@2x.png
+[DEBUG]  Adding assets/Resources/assets/images/tab2@3x.png
+[DEBUG]  Adding assets/Resources/img/atom.png
+[DEBUG]  Adding assets/Resources/img/auction.png
+[DEBUG]  Adding assets/Resources/img/bar-chart.png
+[DEBUG]  Adding assets/Resources/img/bills.png
+[DEBUG]  Adding assets/Resources/img/cancel.png
+[DEBUG]  Adding assets/Resources/img/family-of-three.png
+[DEBUG]  Adding assets/Resources/img/gamepad.png
+[DEBUG]  Adding assets/Resources/img/icon.png
+[DEBUG]  Adding assets/Resources/img/soccer-ball-variant.png
+[DEBUG]  Adding assets/Resources/img/star.png
+[DEBUG]  Adding assets/Resources/img/star2.png
+[DEBUG]  Adding assets/Resources/img/star3.png
+[DEBUG]  Adding assets/Resources/rss.png
+[DEBUG]  Deflating assets/app.json
+[DEBUG]  Deflating assets/index.json
+[DEBUG]  Deflating res/anim/abc_fade_in.xml
+[DEBUG]  Deflating res/anim/abc_fade_out.xml
+[DEBUG]  Deflating res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_popup_enter.xml
+[DEBUG]  Deflating res/anim/abc_popup_exit.xml
+[DEBUG]  Deflating res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_top.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_top.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_light.xml
+[DEBUG]  Deflating res/color/abc_search_url_text.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_dark.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_light.xml
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-long-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-notlong-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-mdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-mdpi-v4/background.png
+[DEBUG]  Deflating res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_ratingbar_indicator_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_ratingbar_small_material.xml
+[DEBUG]  Deflating res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Deflating res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_check_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Deflating res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Deflating res/drawable/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_small_material.xml
+[DEBUG]  Deflating res/drawable/abc_seekbar_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_seekbar_track_material.xml
+[DEBUG]  Deflating res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Deflating res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Deflating res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Adding res/drawable/background.png
+[DEBUG]  Adding res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding res/drawable/btn_more_64.png
+[DEBUG]  Adding res/drawable/disclosure_64.png
+[DEBUG]  Adding res/drawable/rss.png
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_search_view.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_lines.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout-v17/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout-v17/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout-v21/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_bar.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Deflating res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_screen_content_include.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Deflating res/layout/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Deflating res/layout/abc_search_view.xml
+[DEBUG]  Deflating res/layout/abc_select_dialog_material.xml
+[DEBUG]  Deflating res/layout/notification_media_action.xml
+[DEBUG]  Deflating res/layout/notification_media_cancel_action.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout/notification_template_lines.xml
+[DEBUG]  Deflating res/layout/notification_template_media.xml
+[DEBUG]  Deflating res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout/select_dialog_item_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Deflating res/layout/titanium_tabgroup.xml
+[DEBUG]  Deflating res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Deflating res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_edittext.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_item.xml
+[DEBUG]  Deflating res/layout/titanium_ui_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Deflating res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating resources.arsc
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar
+[DEBUG]  Deflating org/appcelerator/titanium/build.properties
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/background.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_144.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_192.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_36.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_72.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_96.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_144.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_192.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_36.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_72.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_96.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar
+[DEBUG]  Deflating android-support-multidex.version.txt
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-database.jar
+[DEBUG]  Processing /home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar
+[INFO]   Processing /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/dexfiles
+[DEBUG]  Adding classes.dex
+[INFO]   Processing /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/src
+[DEBUG]  Adding lib/armeabi-v7a/libc++_shared.so
+[DEBUG]  Adding lib/armeabi-v7a/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi-v7a/libtiverify.so
+[DEBUG]  Adding lib/x86/libc++_shared.so
+[DEBUG]  Adding lib/x86/libkroll-v8.so
+[DEBUG]  Adding lib/x86/libtiverify.so
+[INFO]   Writing unsigned apk: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/app-unsigned.apk
+[INFO]   Using MD5withRSA signature algorithm
+[INFO]   Signing apk: /usr/lib/jvm/java-8-oracle/bin/jarsigner "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "/home/hector/.titanium/mobilesdk/linux/6.1.1.GA/android/dev_keystore" "-storepass" "*******" "-signedjar" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/LectorRSS.apk" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: /home/hector/android-sdk-linux/build-tools/26.0.0.2/zipalign "-v" "4" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/LectorRSS.apk" "/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/LectorRSS.apkz"
+[INFO]   Writing build manifest: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/LectorRSS.apk
+[INFO]   Installing app on device: Y635-L03
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: /home/hector/android-sdk-linux/platform-tools/adb -s a08d160f4352 install -r -d /home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/bin/LectorRSS.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: com.cgma.lectorRSS/.LectorrssActivity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 9599
+[INFO]   Project built successfully in 1m 14s 863ms

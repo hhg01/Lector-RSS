@@ -1,0 +1,8 @@
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/android/support/v7/appcompat/R.java"
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/android/support/v7/cardview/R.java"
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/AssetCryptImpl.java"
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/LectorrssActivity.java"
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/LectorrssAppInfo.java"
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/LectorrssApplication.java"
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/com/cgma/lectorRSS/R.java"
+"/home/hector/Appcelerator_Studio_Workspace/LectorRSS/build/android/gen/ti/modules/titanium/ui/R.java"
